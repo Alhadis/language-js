@@ -107,7 +107,7 @@ repository:
 	"comments.line":
 		name: "comment.line.double-slash.source.js"
 		begin: "//"
-		end:   "$"
+		end:   "\\s*$\\s*"
 		beginCaptures:
 			0: name: "punctuation.definition.comment.js"
 	
@@ -127,6 +127,7 @@ repository:
 		patterns: [
 			{include: "#import.dynamic"}
 			{include: "#import.static"}
+			{include: "#import.multiline"}
 		]
 	
 	# Dynamic import (tc39/2018+): import(foo); (TODO)
@@ -149,12 +150,35 @@ repository:
 			1: name: "keyword.control.module.import.source.js"
 		endCaptures:
 			0: name: "punctuation.terminator.statement.semicolon.source.js";
+		patterns: [include: "#import.static.innards"]
+	
+	"import.static.innards":
 		patterns: [
 			{include: "#import.namespace"}
 			{include: "#import.from"}
 			{include: "#strings"}
 			{include: "#punctuation"}
 		]
+	
+	# Import followed by a line-break. We can't see past the next newline,
+	# so we'll omit the dynamic/static scope and wait to match the next line.
+	"import.multiline":
+		name: "meta.module.import.source.js"
+		begin: "(import)\\s*$\\s*"
+		beginCaptures:
+			1: name: "keyword.control.module.import.source.js"
+		end:   """(?x)
+			(?<=
+				\\S
+				# Nested look-behinds. These rarely end well ...
+				(?<= [^/\\s] | \\*/)
+			)
+		"""
+		patterns: [
+			{include: "#comments"}
+			{include: "#import.static.innards"}
+		]
+
 	
 	# Source of an import statement
 	"import.from":
