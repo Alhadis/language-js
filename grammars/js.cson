@@ -65,36 +65,21 @@ repository:
 	main:
 		patterns: [
 			{include: "#comments"}
-			{include: "#hashbang"}
 			{include: "#import"}
 			{include: "#strings"}
 			{include: "#templates"}
 			{include: "#punctuation"}
 		]
 	
-
-	# Those tall, directional things which surround text:
-	# [Square], {Curly}, (Round) brackets (Matched last)
-	brackets:
-		patterns: [
-			{match: "{",   name: "punctuation.definition.curly.bracket.brace.begin.source.js"}
-			{match: "}",   name: "punctuation.definition.curly.bracket.brace.end.source.js"}
-			{match: "\\[", name: "punctuation.definition.square.bracket.brace.begin.source.js"}
-			{match: "\\]", name: "punctuation.definition.square.bracket.brace.end.source.js"}
-			{match: "\\(", name: "punctuation.definition.round.bracket.brace.begin.source.js"}
-			{match: "\\)", name: "punctuation.definition.round.bracket.brace.end.source.js"}
-		]
-	
 	
 	comments:
 		patterns: [
-			{include: "#commentLine"}
-			{include: "#commentDoc"}
-			{include: "#commentBlock"}
+			{include: "#comments.line"}
+			{include: "#comments.doc"}
+			{include: "#comments.block"}
 		]
 	
-	# /* Block comment */
-	commentBlock:
+	"comments.block":
 		patterns: [{
 			name: "comment.block.empty.source.js"
 			match: "(/\\*)(\\*/)"
@@ -110,7 +95,7 @@ repository:
 		}]
 
 	# /** Doc-block (JSDoc and derivative formats) */
-	commentDoc:
+	"comments.doc":
 		name: "comment.block.documentation.source.js"
 		begin: "/\\*\\*(?!/)"
 		end:   "\\*/"
@@ -119,23 +104,33 @@ repository:
 		# patterns: [include: "source.jsdoc"] TODO
 
 	# // Line comment
-	commentLine:
+	"comments.line":
 		name: "comment.line.double-slash.source.js"
 		begin: "//"
 		end:   "$"
 		beginCaptures:
 			0: name: "punctuation.definition.comment.js"
 	
+	
+	# Escape sequences used within strings and templates (TODO: Fill these out)
+	escapes:
+		patterns: [{
+			name: "constant.character.escape.source.js"
+			match: "(\\\\)."
+			captures:
+				1: name: "punctuation.definition.escape.backslash.source.js"
+		}]
+	
 
 	# Import statement
 	import:
 		patterns: [
-			{include: "#importDynamic"}
-			{include: "#importStatic"}
+			{include: "#import.dynamic"}
+			{include: "#import.static"}
 		]
 	
 	# Dynamic import (tc39/2018+): import(foo); (TODO)
-	importDynamic:
+	"import.dynamic":
 		name: "meta.module.import.dynamic.source.js"
 		begin: "(import)\\s*(\\()"
 		end:   "\\)"
@@ -146,7 +141,7 @@ repository:
 			0: name: "punctuation.definition.arguments.round.bracket.end.source.js"
 
 	# Static import (ES6/2015): import * from "file.js"; …etc
-	importStatic:
+	"import.static":
 		name: "meta.module.import.static.source.js"
 		begin: "(import)\\s*(?=[^/\\s(])"
 		end:   ";|$"
@@ -155,13 +150,14 @@ repository:
 		endCaptures:
 			0: name: "punctuation.terminator.statement.semicolon.source.js";
 		patterns: [
-			{include: "#importNamespace"}
-			{include: "#importFrom"}
+			{include: "#import.namespace"}
+			{include: "#import.from"}
 			{include: "#strings"}
+			{include: "#punctuation"}
 		]
 	
 	# Source of an import statement
-	importFrom:
+	"import.from":
 		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
 		end:   "(?=[^\\s/]|/[^/*])"
 		beginCaptures:
@@ -170,7 +166,7 @@ repository:
 		
 	
 	# Namespaced: import * as foo from "file.js"
-	importNamespace:
+	"import.namespace":
 		name:  "meta.module.namespace.source.js"
 		begin: "\\*"
 		end:   "(?:\\s+|^)(?!as)([\\w$_]+)|(?=[^\\s\\w$_])"
@@ -180,24 +176,44 @@ repository:
 			0: name: "entity.identifier.module.alias.source.js"
 
 
-	# Commas, unmatched brackets, semicolons, yaddah-yaddah…
+
+	# Punctuation characters matched in absence of a more specific context
 	punctuation:
 		patterns: [
-			{match: ";",   name: "punctuation.terminator.statement.semicolon.source.js"}
-			{match: ",",   name: "punctuation.delimiter.comma.source.js"}
-			{include: "#brackets"}
+			{include: "#punctuation.semicolon"}
+			{include: "#punctuation.comma"}
+			{include: "#punctuation.brackets"}
 		]
+
+	"punctuation.brackets":
+		patterns: [
+			# We're not enforcing paired matches. What's the point?
+			{match: "{",   name: "punctuation.definition.curly.bracket.brace.begin.source.js"}
+			{match: "}",   name: "punctuation.definition.curly.bracket.brace.end.source.js"}
+			{match: "\\[", name: "punctuation.definition.square.bracket.brace.begin.source.js"}
+			{match: "\\]", name: "punctuation.definition.square.bracket.brace.end.source.js"}
+			{match: "\\(", name: "punctuation.definition.round.bracket.brace.begin.source.js"}
+			{match: "\\)", name: "punctuation.definition.round.bracket.brace.end.source.js"}
+		]
+
+	"punctuation.comma":
+		name: "punctuation.delimiter.comma.source.js"
+		match: ","
+
+	"punctuation.semicolon":
+		name: "punctuation.terminator.statement.semicolon.source.js"
+		match: ";"
 	
 
 	# Quoted string literals
 	strings:
 		patterns: [
-			{include: "#stringDoubleQuoted"}
-			{include: "#stringSingleQuoted"}
+			{include: "#strings.doubleQuoted"}
+			{include: "#strings.singleQuoted"}
 		]
 
 	# "Double quotes"
-	stringDoubleQuoted:
+	"strings.doubleQuoted":
 		patterns: [{
 			# Empty string
 			name:  "string.quoted.double.empty.source.js"
@@ -221,8 +237,15 @@ repository:
 		}]
 
 	# 'Single quotes'
-	stringSingleQuoted:
+	"strings.singleQuoted":
 		patterns: [{
+			# Two apostrophes masquerading as a quotation mark
+			name:  "string.quoted.single.empty.source.js"
+			match: "(')(')"
+			captures:
+				1: name: "punctuation.definition.string.begin.source.js"
+				2: name: "punctuation.definition.string.end.source.js"
+		},{
 			# 'String literal for lazy-typists'
 			name:  "string.quoted.single.source.js"
 			begin: "'"
