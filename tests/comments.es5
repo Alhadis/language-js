@@ -1,0 +1,6 @@
+#!  /usr/bin/env  node  --future
+foo;
+// Comment line
+bar; /*
+	Comment block
+*/ baz; /**/ qux;

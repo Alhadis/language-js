@@ -1,0 +1,202 @@
+
+// Single-line imports
+import foo from "module-name";
+import * as foo from "module-name";
+import { foo } from "module-name";
+import { foo as bar } from "module-name";
+import { foo , bar } from "module-name";
+import { foo , bar as baz , qux as qul } from "module-name";
+import foo, { export bar, baz } from "module-name";
+import foo, * as bar from "module-name";
+import "module-name";
+
+
+// Multi-line imports
+import
+	foo
+from "module-name";
+
+import
+	*
+	as
+	foo
+from "module-name";
+
+import {
+	foo
+} from "module-name";
+
+import {
+	foo
+	as
+	bar
+} from "module-name";
+
+import {
+	foo,
+	bar
+} from "module-name";
+
+import {
+	foo ,
+	bar as baz ,
+	qux as qul
+} from "module-name";
+
+import
+	foo,
+	{
+		export
+		bar,
+		baz
+	}
+	from "module-name";
+
+import
+	foo,
+	*
+	as
+	bar
+	from
+	"module-name";
+
+import
+	"module-name";
+
+
+// Idiotic multi-line imports
+import
+
+
+	foo
+
+
+		from "module-name";
+
+import
+
+		*
+		
+			as
+			
+				foo
+			
+			from "module-name";
+
+import
+
+	{
+
+		foo
+
+	}
+
+	from "module-name";
+
+
+import
+
+	{
+		foo
+		
+		as
+	
+		bar
+
+		}
+	
+		from "module-name";
+
+
+import
+
+	{
+		
+	foo,
+	
+	bar
+	
+
+	}
+
+
+
+from "module-name";
+
+import
+
+{
+		
+		
+		foo ,
+	
+	bar
+	
+	as
+		baz ,
+	
+	
+	
+	
+	
+	qux as qul
+	
+	}
+	
+	
+	from
+	
+	"module-name";
+
+
+import
+
+
+	foo,
+	
+	
+	{
+	
+	
+	
+		export
+
+
+		bar,
+
+
+		baz
+
+
+	}
+
+
+
+
+	from "module-name";
+
+
+
+
+import
+
+
+	foo,
+
+
+	*
+
+
+	as
+
+
+	bar
+
+
+	from
+
+
+	"module-name";
+
+import
+	"module-name";

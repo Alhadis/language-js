@@ -53,6 +53,7 @@ repository:
 			{include: "#commentDoc"}
 			{include: "#commentBlock"}
 			{include: "#hashbang"}
+			{include: "#import"}
 		]
 	
 	# /* Block comment */
@@ -97,3 +98,45 @@ repository:
 		beginCaptures:
 			0: name: "punctuation.definition.comment.source.js"
 		
+
+	# Import statement
+	import:
+		patterns: [
+			{include: "#importDynamic"}
+			{include: "#importStatic"}
+		]
+	
+	# Dynamic import (tc39/2018+): import(foo);
+	importDynamic:
+		name: "meta.module.import.dynamic.source.js"
+		begin: "(import)\\s*(\\()"
+		end:   "\\)"
+		beginCaptures:
+			1: name: "keyword.control.module.import.source.js"
+			2: name: "punctuation.definition.arguments.round.bracket.begin.source.js"
+		endCaptures:
+			0: name: "punctuation.definition.arguments.round.bracket.end.source.js"
+
+	# Static import (ES6/2015): import * from "file.js"; …etc
+	importStatic:
+		name: "meta.module.import.static.source.js"
+		begin: "(import)\\s*(?=[^/\\s(])"
+		end:   ";|$"
+		beginCaptures:
+			1: name: "keyword.control.module.import.source.js"
+		endCaptures:
+			0: name: "punctuation.terminator.statement.semicolon.source.js";
+		patterns: [
+			{include: "#importNamespace"}
+		]
+	
+	# Namespaced: import * as foo from "file.js"
+	importNamespace:
+		name:  "meta.module.namespace.source.js"
+		begin: "\\*"
+		end:   "(?:\\s+|^)(?!as)([\\w$_]+)|(?=[^\\s\\w$_])"
+		beginCaptures:
+			0: name: "keyword.operator.import.namespace.source.js"
+		endCaptures:
+			0: name: "entity.identifier.module.alias.source.js"
+			
