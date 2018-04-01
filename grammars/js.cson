@@ -69,7 +69,22 @@ repository:
 			{include: "#import"}
 			{include: "#strings"}
 			{include: "#templates"}
+			{include: "#punctuation"}
 		]
+	
+
+	# Those tall, directional things which surround text:
+	# [Square], {Curly}, (Round) brackets (Matched last)
+	brackets:
+		patterns: [
+			{match: "{",   name: "punctuation.definition.curly.bracket.brace.begin.source.js"}
+			{match: "}",   name: "punctuation.definition.curly.bracket.brace.end.source.js"}
+			{match: "\\[", name: "punctuation.definition.square.bracket.brace.begin.source.js"}
+			{match: "\\]", name: "punctuation.definition.square.bracket.brace.end.source.js"}
+			{match: "\\(", name: "punctuation.definition.round.bracket.brace.begin.source.js"}
+			{match: "\\)", name: "punctuation.definition.round.bracket.brace.end.source.js"}
+		]
+	
 	
 	comments:
 		patterns: [
@@ -163,7 +178,16 @@ repository:
 			0: name: "keyword.operator.import.namespace.source.js"
 		endCaptures:
 			0: name: "entity.identifier.module.alias.source.js"
-			
+
+
+	# Commas, unmatched brackets, semicolons, yaddah-yaddah…
+	punctuation:
+		patterns: [
+			{match: ";",   name: "punctuation.terminator.statement.semicolon.source.js"}
+			{match: ",",   name: "punctuation.delimiter.comma.source.js"}
+			{include: "#brackets"}
+		]
+	
 
 	# Quoted string literals
 	strings:
