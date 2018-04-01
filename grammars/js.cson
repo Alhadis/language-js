@@ -39,12 +39,26 @@ firstLineMatch: """(?x)
 		(?=\\s|:|$)
 	)
 """
-patterns: [include: "#main"]
+patterns: [
+	# Interpreter directive
+	name:  "comment.line.number-sign.hashbang.source.js"
+	begin: "\\A#!"
+	end:   "$"
+	beginCaptures:
+		0: name: "punctuation.definition.comment.source.js"
+	
+	# Remainder of grammar
+	{include: "#main"}
+]
 
 repository:
 	main:
 		patterns: [
 			{include: "#comments"}
+			{include: "#hashbang"}
+			{include: "#import"}
+			{include: "#strings"}
+			{include: "#templates"}
 		]
 	
 	comments:
@@ -52,8 +66,6 @@ repository:
 			{include: "#commentLine"}
 			{include: "#commentDoc"}
 			{include: "#commentBlock"}
-			{include: "#hashbang"}
-			{include: "#import"}
 		]
 	
 	# /* Block comment */
@@ -90,15 +102,6 @@ repository:
 			0: name: "punctuation.definition.comment.js"
 	
 
-	# Interpreter directive
-	hashbang:
-		name:  "comment.line.number-sign.hashbang.source.js"
-		begin: "\\A#!"
-		end:   "$"
-		beginCaptures:
-			0: name: "punctuation.definition.comment.source.js"
-		
-
 	# Import statement
 	import:
 		patterns: [
@@ -106,7 +109,7 @@ repository:
 			{include: "#importStatic"}
 		]
 	
-	# Dynamic import (tc39/2018+): import(foo);
+	# Dynamic import (tc39/2018+): import(foo); (TODO)
 	importDynamic:
 		name: "meta.module.import.dynamic.source.js"
 		begin: "(import)\\s*(\\()"
@@ -128,7 +131,18 @@ repository:
 			0: name: "punctuation.terminator.statement.semicolon.source.js";
 		patterns: [
 			{include: "#importNamespace"}
+			{include: "#importFrom"}
+			{include: "#strings"}
 		]
+	
+	# Source of an import statement
+	importFrom:
+		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
+		end:   "(?=[^\\s/]|/[^/*])"
+		beginCaptures:
+			1: name: "keyword.operator.module.import.from.source.js"
+		patterns: [include: "#comments"]
+		
 	
 	# Namespaced: import * as foo from "file.js"
 	importNamespace:
@@ -140,3 +154,62 @@ repository:
 		endCaptures:
 			0: name: "entity.identifier.module.alias.source.js"
 			
+
+	# Quoted string literals
+	strings:
+		patterns: [
+			{include: "#stringDoubleQuoted"}
+			{include: "#stringSingleQuoted"}
+		]
+
+	# "Double quotes"
+	stringDoubleQuoted:
+		patterns: [{
+			# Empty string
+			name:  "string.quoted.double.empty.source.js"
+			match: '(")(")'
+			captures:
+				1: name: "punctuation.definition.string.begin.source.js"
+				2: name: "punctuation.definition.string.end.source.js"
+		},{
+			# "Not empty. Seriously."
+			name:  "string.quoted.double.source.js"
+			begin: '"'
+			end:   '"'
+			beginCaptures: 0: name: "punctuation.definition.string.begin.source.js"
+			endCaptures:   0: name: "punctuation.definition.string.end.source.js"
+			patterns: [{
+				name: "invalid.illegal.string.unclosed.source.js"
+				match: '(?:\\G|^)[^"]*(?<!\\\\)$'
+				captures:
+					0: patterns: [include: "#escapes"]
+			}, include: "#escapes"]
+		}]
+
+	# 'Single quotes'
+	stringSingleQuoted:
+		patterns: [{
+			# 'String literal for lazy-typists'
+			name:  "string.quoted.single.source.js"
+			begin: "'"
+			end:   "'"
+			beginCaptures: 0: name: "punctuation.definition.string.begin.source.js"
+			endCaptures:   0: name: "punctuation.definition.string.end.source.js"
+			patterns: [{
+				name: "invalid.illegal.string.unclosed.source.js"
+				match: "(?:\\G|^)[^']*(?<!\\\\)$"
+				captures:
+					0: patterns: [include: "#escapes"]
+			}, include: "#escapes"]
+		}]
+
+
+	# `Template literals` (TODO: Tagging)
+	templates:
+		patterns: [{
+			name:  "string.interpolated.template.source.js"
+			begin: "`"
+			end:   "`"
+			beginCaptures: 0: name: "punctuation.definition.string.begin.source.js"
+			endCaptures:   0: name: "punctuation.definition.string.end.source.js"
+		}]
