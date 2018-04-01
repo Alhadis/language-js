@@ -1,0 +1,13 @@
+{
+	"name": "language-js",
+	"version": "v0.0.0",
+	"description": "Clean rewrite of a PCRE-compatible, JSX-aware JavaScript grammar",
+	"keywords": ["JavaScript", "ECMAScript", "JSX", "ESNext", "ES6", "ES2015"],
+	"repository": "https://github.com/Alhadis/language-roff",
+	"author": "John Gardner <gardnerjohng@gmail.com>",
+	"license": "ISC",
+	"engines": {
+		"atom": "*",
+		"node": "*"
+	}
+}

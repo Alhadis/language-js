@@ -1,0 +1,99 @@
+name: "ECMAScript"
+scopeName: "source.ecmascript"
+fileTypes: [
+	"js", "_js"
+	"es", "es5", "es6"
+	"gs"
+	"htc"
+	"jscad"
+	"jscript"
+	"jse"
+	"jslib"
+	"jsm"
+	"json5"
+	"jspre"
+	"mjs"
+	"pac"
+	"pjs"
+	"sjs"
+	"snap"
+	"xsjs"
+	"xsjslib"
+]
+firstLineMatch: """(?x)
+	# Hashbang
+	^\\#!.*(?:\\s|\\/|(?<=!)\\b)
+		(?:node|iojs|JavaScript|v8|d8)
+	(?:$|\\s)
+	|
+	# Modeline
+	(?i:
+		# Emacs
+		-\\*-(?:\\s*(?=[^:;\\s]+\\s*-\\*-)|(?:.*?[;\\s]|(?<=-\\*-))mode\\s*:\\s*)
+			(?:js|javascript)
+		(?=[\\s;]|(?<![-*])-\\*-).*?-\\*-
+		|
+		# Vim
+		(?:(?:\\s|^)vi(?:m[<=>]?\\d+|m)?|\\sex)(?=:(?=\\s*set?\\s[^\\n:]+:)|:(?!\\s* set?\\s))(?:(?:\\s|\\s*:\\s*)\\w*(?:\\s*=(?:[^\\n\\\\\\s]|\\\\.)*)?)*[\\s:](?:filetype|ft|syntax)\\s*=
+			javascript
+		(?=\\s|:|$)
+	)
+"""
+patterns: [include: "#main"]
+
+repository:
+	main:
+		patterns: [
+			{include: "#comments"}
+		]
+	
+	comments:
+		patterns: [
+			{include: "#commentLine"}
+			{include: "#commentDoc"}
+			{include: "#commentBlock"}
+			{include: "#hashbang"}
+		]
+	
+	# /* Block comment */
+	commentBlock:
+		patterns: [{
+			name: "comment.block.empty.source.js"
+			match: "(/\\*)(\\*/)"
+			captures:
+				1: name: "punctuation.definition.comment.begin.js"
+				2: name: "punctuation.definition.comment.end.js"
+		},{
+			name: "comment.block.source.js"
+			begin: "/\\*"
+			end:   "\\*/"
+			beginCaptures: 0: name: "punctuation.definition.comment.begin.js"
+			endCaptures:   0: name: "punctuation.definition.comment.end.js"
+		}]
+
+	# /** Doc-block (JSDoc and derivative formats) */
+	commentDoc:
+		name: "comment.block.documentation.source.js"
+		begin: "/\\*\\*(?!/)"
+		end:   "\\*/"
+		beginCaptures: 0: name: "punctuation.definition.comment.begin.js"
+		endCaptures:   0: name: "punctuation.definition.comment.end.js"
+		# patterns: [include: "source.jsdoc"] TODO
+
+	# // Line comment
+	commentLine:
+		name: "comment.line.double-slash.source.js"
+		begin: "//"
+		end:   "$"
+		beginCaptures:
+			0: name: "punctuation.definition.comment.js"
+	
+
+	# Interpreter directive
+	hashbang:
+		name:  "comment.line.number-sign.hashbang.source.js"
+		begin: "\\A#!"
+		end:   "$"
+		beginCaptures:
+			0: name: "punctuation.definition.comment.source.js"
+		

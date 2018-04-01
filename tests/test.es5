@@ -1,0 +1,9 @@
+#!/bin/env node
+
+// Comment line
+
+/*
+	Comment block
+*/
+
+/**/ aa
