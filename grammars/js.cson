@@ -141,6 +141,7 @@ repository:
 		endCaptures:
 			0: name: "punctuation.definition.arguments.round.bracket.end.source.js"
 
+
 	# Static import (ES6/2015): import * from "file.js"; …etc
 	"import.static":
 		name: "meta.module.import.static.source.js"
@@ -150,43 +151,57 @@ repository:
 			1: name: "keyword.control.module.import.source.js"
 		endCaptures:
 			0: name: "punctuation.terminator.statement.semicolon.source.js";
-		patterns: [include: "#import.static.innards"]
-	
-	"import.static.innards":
-		patterns: [
-			{include: "#import.namespace"}
-			{include: "#import.from"}
-			{include: "#strings"}
-			{include: "#punctuation"}
-		]
-	
+		patterns: [include: "#import.innards"]
+
+
 	# Import followed by a line-break. We can't see past the next newline,
 	# so we'll omit the dynamic/static scope and wait to match the next line.
 	"import.multiline":
 		name: "meta.module.import.source.js"
 		begin: "(import)\\s*$\\s*"
+		end:   "(?<=[^/\\s])"
 		beginCaptures:
 			1: name: "keyword.control.module.import.source.js"
-		end:   """(?x)
-			(?<=
-				\\S
-				# Nested look-behinds. These rarely end well ...
-				(?<= [^/\\s] | \\*/)
-			)
-		"""
 		patterns: [
+			{include: "#import.list"}
 			{include: "#comments"}
-			{include: "#import.static.innards"}
+			{include: "#import.innards"}
 		]
 
+	"import.innards":
+		patterns: [
+			{include: "#import.namespace"}
+			{include: "#import.operator.as"}
+			{include: "#import.operator.from"}
+			{include: "#strings"}
+			{include: "#punctuation"}
+		]
 	
-	# Source of an import statement
-	"import.from":
+	"import.operator.as":
+		begin: "(?<=\\s|^|\\s)as(?:\\s+|$\\s*)"
+		end:   "(?=[^\\s/]|/[^/*])"
+		beginCaptures:
+			0: name: "keyword.operator.module.as.source.js"
+		patterns: [
+			{include: "#comments"}
+		]
+	
+	"import.operator.from":
 		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
 		end:   "(?=[^\\s/]|/[^/*])"
 		beginCaptures:
 			1: name: "keyword.operator.module.import.from.source.js"
 		patterns: [include: "#comments"]
+	
+	"import.list":
+		name: "meta.module.export-list.source.js"
+		begin: "(?:\\G|^)\\s*({)\\s*"
+		end:   "}"
+		beginCaptures:
+			1: name: "punctuation.definition.curly.bracket.brace.begin.source.js"
+		endCaptures:
+			0: name: "punctuation.definition.curly.bracket.brace.end.source.js"
+		patterns: [include: "#import.innards"]
 		
 	
 	# Namespaced: import * as foo from "file.js"
