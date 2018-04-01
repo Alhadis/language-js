@@ -1,0 +1,2 @@
+# Flag fixtures as JS to enable highlighting on GitHub
+*.es5 linguist-language=JavaScript
