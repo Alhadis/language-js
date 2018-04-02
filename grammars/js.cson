@@ -65,7 +65,7 @@ repository:
 	main:
 		patterns: [
 			{include: "#comments"}
-			{include: "#import"}
+			{include: "#module"}
 			{include: "#strings"}
 			{include: "#templates"}
 			{include: "#punctuation"}
@@ -122,17 +122,83 @@ repository:
 		}]
 	
 
-	# Import statement
-	import:
+	# ECMAScript modules
+	module:
 		patterns: [
-			{include: "#import.dynamic"}
-			{include: "#import.static"}
-			{include: "#import.multiline"}
+			{include: "#module.import.dynamic"}
+			{include: "#module.import.static"}
+			{include: "#module.import.multiline"}
+		]
+
+	"module.innards":
+		patterns: [
+			{include: "#comments"}
+			{include: "#module.namespace"}
+			{include: "#module.alias"}
+			{include: "#module.specifier"}
+			{
+				name: "variable.language.default.module.source.js"
+				match: "\\b(default)\\b"
+			}
+			{include: "#strings"}
+			{include: "#punctuation"}
 		]
 	
-	# Dynamic import (tc39/2018+): import(foo); (TODO)
-	"import.dynamic":
-		name: "meta.module.import.dynamic.source.js"
+	# as …
+	"module.alias":
+		name:  "meta.module.alias.source.js"
+		begin: "(?<=\\s|^|\\s|\\G)as(?:\\s+|$\\s*)"
+		end:   "[\\w$_]+|(?=[^\\s\\w$_])"
+		beginCaptures: 0: name: "keyword.control.module.as.source.js"
+		endCaptures:   0: name: "entity.name.module.alias.source.js"
+		patterns: [include: "#comments"]
+
+	# { … }
+	"module.list":
+		name: "meta.module.list.source.js"
+		begin: "(?:\\G|^)\\s*({)\\s*"
+		end:   "}"
+		beginCaptures: 1: name: "punctuation.definition.curly.bracket.brace.begin.source.js"
+		endCaptures:   0: name: "punctuation.definition.curly.bracket.brace.end.source.js"
+		patterns: [include: "#module.innards"]
+
+	# * …
+	"module.namespace":
+		name:  "meta.module.namespace.source.js.test-1"
+		contentName: "test-2"
+		begin: "\\*"
+		end:   "(?=from)|(?:^|\\s+)(?!as|from)([\\w$_]+)|(?=[^\\s\\w$_])"
+		beginCaptures: 0: name: "keyword.operator.module.namespace.source.js"
+		endCaptures:   0: name: "entity.name.module.alias.source.js"
+		patterns: [include: "#module.alias"]
+
+	# from …
+	"module.specifier":
+		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
+		end:   "(?=[^\\s/]|/[^/*])"
+		beginCaptures:
+			1: name: "keyword.control.module.import.from.source.js"
+		patterns: [include: "#comments"]
+
+
+
+	# import …
+	"module.import.static":
+		name:  "meta.module.import.static.source.js"
+		begin: "(import)\\s+(?=[^/\\s(])"
+		end:   ";|$"
+		beginCaptures:
+			1: name: "keyword.control.module.import.source.js"
+		endCaptures:
+			0: name: "punctuation.terminator.statement.semicolon.source.js";
+		patterns: [{
+			name: "entity.name.module.source.js"
+			match: "\\G\\s*([\\w$_]+)"
+		},include: "#module.innards"]
+
+	# TODO: import( … )
+	"module.import.dynamic":
+		name:  "meta.module.import.dynamic.source.js"
 		begin: "(import)\\s*(\\()"
 		end:   "\\)"
 		beginCaptures:
@@ -141,79 +207,18 @@ repository:
 		endCaptures:
 			0: name: "punctuation.definition.arguments.round.bracket.end.source.js"
 
-
-	# Static import (ES6/2015): import * from "file.js"; …etc
-	"import.static":
-		name: "meta.module.import.static.source.js"
-		begin: "(import)\\s*(?=[^/\\s(])"
-		end:   ";|$"
-		beginCaptures:
-			1: name: "keyword.control.module.import.source.js"
-		endCaptures:
-			0: name: "punctuation.terminator.statement.semicolon.source.js";
-		patterns: [include: "#import.innards"]
-
-
-	# Import followed by a line-break. We can't see past the next newline,
-	# so we'll omit the dynamic/static scope and wait to match the next line.
-	"import.multiline":
-		name: "meta.module.import.source.js"
+	# import ⮐ …
+	"module.import.multiline":
+		name:  "meta.module.import.source.js"
 		begin: "(import)\\s*$\\s*"
 		end:   "(?<=[^/\\s])"
 		beginCaptures:
 			1: name: "keyword.control.module.import.source.js"
 		patterns: [
-			{include: "#import.list"}
+			{include: "#module.list"}
 			{include: "#comments"}
-			{include: "#import.innards"}
+			{include: "#module.innards"}
 		]
-
-	"import.innards":
-		patterns: [
-			{include: "#import.namespace"}
-			{include: "#import.operator.as"}
-			{include: "#import.operator.from"}
-			{include: "#strings"}
-			{include: "#punctuation"}
-		]
-	
-	"import.operator.as":
-		begin: "(?<=\\s|^|\\s)as(?:\\s+|$\\s*)"
-		end:   "(?=[^\\s/]|/[^/*])"
-		beginCaptures:
-			0: name: "keyword.operator.module.as.source.js"
-		patterns: [
-			{include: "#comments"}
-		]
-	
-	"import.operator.from":
-		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
-		end:   "(?=[^\\s/]|/[^/*])"
-		beginCaptures:
-			1: name: "keyword.operator.module.import.from.source.js"
-		patterns: [include: "#comments"]
-	
-	"import.list":
-		name: "meta.module.export-list.source.js"
-		begin: "(?:\\G|^)\\s*({)\\s*"
-		end:   "}"
-		beginCaptures:
-			1: name: "punctuation.definition.curly.bracket.brace.begin.source.js"
-		endCaptures:
-			0: name: "punctuation.definition.curly.bracket.brace.end.source.js"
-		patterns: [include: "#import.innards"]
-		
-	
-	# Namespaced: import * as foo from "file.js"
-	"import.namespace":
-		name:  "meta.module.namespace.source.js"
-		begin: "\\*"
-		end:   "(?:\\s+|^)(?!as)([\\w$_]+)|(?=[^\\s\\w$_])"
-		beginCaptures:
-			0: name: "keyword.operator.import.namespace.source.js"
-		endCaptures:
-			0: name: "entity.identifier.module.alias.source.js"
-
 
 
 	# Punctuation characters matched in absence of a more specific context

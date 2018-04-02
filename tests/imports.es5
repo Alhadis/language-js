@@ -1,20 +1,38 @@
+// Source: https://www.ecma-international.org/ecma-262/6.0/#table-40
+import v from "mod";
+import * as ns from "mod";
+import {x} from "mod";
+import {x as v} from "mod";
+import "mod";
+
 
 // Single-line imports
-import foo from "module-name";
+import foo from "module-name" 
+; 
 import * as foo from "module-name";
 import { foo } from "module-name";
 import { foo as bar } from "module-name";
+import { default as foo } from "module-name"
 import { foo , bar } from "module-name";
 import { foo , bar as baz , qux as qul } from "module-name";
 import foo, { export bar, baz } from "module-name";
-import foo, * as bar from "module-name";
+import foo, * as bar, baz as qux from "module-name";
 import "module-name";
 
 
 // Multi-line imports
 import
-	foo
-from "module-name";
+foo from
+"module-name";
+
+import
+foo
+from
+"module-name";
+
+import
+	foo  from
+"module-name";
 
 import
 	*
@@ -33,6 +51,7 @@ import {
 } from "module-name";
 
 import {
+	
 	foo,
 	bar
 } from "module-name";
@@ -57,6 +76,18 @@ import
 	*
 	as
 	bar
+	from
+	"module-name";
+
+import
+	foo,
+	*
+	as
+	bar
+	,
+	baz
+	as
+	qux
 	from
 	"module-name";
 
