@@ -26,7 +26,8 @@ foo from
 "module-name";
 
 import
-foo
+                 foo, bar 
+				 baz from
 from
 "module-name";
 

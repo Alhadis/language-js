@@ -134,24 +134,48 @@ repository:
 		patterns: [
 			{include: "#comments"}
 			{include: "#module.namespace"}
-			{include: "#module.alias"}
-			{include: "#module.specifier"}
-			{
-				name: "variable.language.default.module.source.js"
-				match: "\\b(default)\\b"
-			}
+			{include: "#module.as"}
+			{include: "#module.from"}
+			{include: "#module.default"}
+			{include: "#module.name"}
 			{include: "#strings"}
 			{include: "#punctuation"}
 		]
+
+	"module.name":
+		name: "entity.name.module.source.js"
+		match: "\\b(?!as|from|default|export|import)[\\w$_]+"
+
+	# default
+	"module.default":
+		name: "variable.language.default.module.source.js"
+		match: "\\b(default)\\b"
 	
 	# as …
-	"module.alias":
+	"module.as":
 		name:  "meta.module.alias.source.js"
-		begin: "(?<=\\s|^|\\s|\\G)as(?:\\s+|$\\s*)"
+		begin: "(?<=\\G|^|\\s)as(?:\\s+|$\\s*)"
 		end:   "[\\w$_]+|(?=[^\\s\\w$_])"
 		beginCaptures: 0: name: "keyword.control.module.as.source.js"
 		endCaptures:   0: name: "entity.name.module.alias.source.js"
 		patterns: [include: "#comments"]
+
+	# from …
+	"module.from":
+		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
+		end:   "(?=[^\\s/]|/[^/*])"
+		beginCaptures:
+			1: name: "keyword.control.module.import.from.source.js"
+		patterns: [include: "#comments"]
+
+	# * …
+	"module.namespace":
+		name:  "meta.module.namespace.source.js"
+		begin: "\\*"
+		end:   "(?=from)|(?:^|\\s+)(?!as|from)[\\w$_]+|(?=[^\\s\\w$_])"
+		beginCaptures: 0: name: "keyword.operator.module.namespace.source.js"
+		endCaptures:   0: name: "entity.name.module.alias.source.js"
+		patterns: [include: "#module.innards"]
 
 	# { … }
 	"module.list":
@@ -161,25 +185,6 @@ repository:
 		beginCaptures: 1: name: "punctuation.definition.curly.bracket.brace.begin.source.js"
 		endCaptures:   0: name: "punctuation.definition.curly.bracket.brace.end.source.js"
 		patterns: [include: "#module.innards"]
-
-	# * …
-	"module.namespace":
-		name:  "meta.module.namespace.source.js.test-1"
-		contentName: "test-2"
-		begin: "\\*"
-		end:   "(?=from)|(?:^|\\s+)(?!as|from)([\\w$_]+)|(?=[^\\s\\w$_])"
-		beginCaptures: 0: name: "keyword.operator.module.namespace.source.js"
-		endCaptures:   0: name: "entity.name.module.alias.source.js"
-		patterns: [include: "#module.alias"]
-
-	# from …
-	"module.specifier":
-		begin: "(?<=\\s|}|^)(from)(?=\\s|$)"
-		end:   "(?=[^\\s/]|/[^/*])"
-		beginCaptures:
-			1: name: "keyword.control.module.import.from.source.js"
-		patterns: [include: "#comments"]
-
 
 
 	# import …
@@ -209,12 +214,26 @@ repository:
 
 	# import ⮐ …
 	"module.import.multiline":
-		name:  "meta.module.import.source.js"
+		name:  "meta.module.import.multiline.source.js"
 		begin: "(import)\\s*$\\s*"
-		end:   "(?<=[^/\\s])"
+		end:   "(?<=[^/\\s])(?<!from)"
 		beginCaptures:
 			1: name: "keyword.control.module.import.source.js"
 		patterns: [
+			{
+				name: "test-1"
+				begin: "(?=[^/\\s(])(?!from\\b)"
+				end:   "(?=\\s*\\bfrom\\b|;)"
+				endCaptures:
+					0: name: "punctuation.terminator.statement.semicolon.source.js";
+				patterns: [include: "#module.innards"]
+			}
+			{
+				name: "test-2"
+				begin: "\\s*(?=\\bfrom\\b)"
+				end: '(?<=")\\s*(?=$|;)'
+				patterns: [include: "#comments"]
+			}
 			{include: "#module.list"}
 			{include: "#comments"}
 			{include: "#module.innards"}
