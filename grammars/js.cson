@@ -143,14 +143,15 @@ repository:
 		match: "\\b(from)\\b"
 
 	"module.import":
-		name:  "meta.module.import.source.js"
-		begin: "\\bimport(?=\\s|$)"
+		name:  "meta.module.$1.source.js"
+		begin: "\\b(import|export)(?=\\s|$)"
 		end:   """(?x)
+			(?=}) |
 			("(?:[^"\\\\]|\\\\.)*") |
 			('(?:[^"\\\\]|\\\\.)*')
 		"""
 		beginCaptures:
-			0: name: "keyword.control.module.import.source.js"
+			0: name: "keyword.control.module.$1.source.js"
 		endCaptures:
 			0: name: "meta.module.import.specifier.source.js"
 			1: patterns: [include: "#strings.doubleQuoted"]
@@ -182,6 +183,7 @@ repository:
 		endCaptures:   0: name: "punctuation.definition.curly.bracket.brace.end.source.js"
 		patterns: [
 			{include: "#punctuation.comma"}
+			{include: "#module.import"}
 			{include: "#module.default"}
 			{include: "#module.namespace"}
 			{include: "#module.from"}
