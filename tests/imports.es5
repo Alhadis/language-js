@@ -19,6 +19,10 @@ import foo, { export bar, baz } from "module-name";
 import foo, * as bar, baz as qux from "module-name";
 import "module-name";
 
+import default from "something";
+import default, * as default from "something";
+import { default } from "something";
+
 
 // Multi-line imports
 import
