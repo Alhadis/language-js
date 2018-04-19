@@ -1,0 +1,54 @@
+#!/bin/sh
+set -e
+
+#
+# atom-exec: Crude hack to run an arbitrary script in Atom.
+#
+usage="Usage: ${0##*/} /path/to/script.js [...OPTION=VALUE]\n"
+
+# Verify sufficient argument count
+[ $# -gt 0 ] || {
+	printf >&2 "$usage"
+	exit 1
+}
+
+require(){
+	while [ "$1" ]; do
+		command -v "$1" 2>&1 >/dev/null && shift && continue
+		printf >&2 '%s: Required command `%s` not found in $PATH\n' "${0##*/}" "$1"
+		exit 1
+	done
+}
+
+# Check that required executables are available
+require atom sed
+
+# Verify script file exists
+script=$1
+shift
+[ -s "$script" ] || {
+	printf >&2 "${0##*/}: Empty or unreadable script file: '$script'\n"
+	printf >&2 "$usage"
+	exit 1
+}
+
+ARGS=
+while [ "$1" ]; do
+	case "$1" in
+		--)
+			shift
+			break ;;
+		[!-]*)
+			break ;;
+		*)
+			ARGS="$ARGS $1"
+			break ;;
+	esac
+	shift
+done
+
+ARGS=`printf %s "$ARGS" | sed -f scripts/escape-args.sed`
+
+eval `printf '%s atom --test 2>&1 "%s"' "ARGV_HACK=$ARGS"` "$script" \
+| sed -n -e 's/^\.$//g; /^Finished in [[:digit:].]*/,/./d;p' \
+| sed -e :a -e '/^\n*$/{$d;N;};/\n$/ba'

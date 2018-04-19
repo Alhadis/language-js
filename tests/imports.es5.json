@@ -1,0 +1,6762 @@
+[
+	[
+		{
+			"value": "//",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js",
+				"punctuation.definition.comment.js"
+			]
+		},
+		{
+			"value": " Source: https://www.ecma-international.org/ecma-262/6.0/#table-40",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "v",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "mod",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "ns",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "mod",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": "x",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "mod",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": "x",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "v",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "mod",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "mod",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "//",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js",
+				"punctuation.definition.comment.js"
+			]
+		},
+		{
+			"value": " Single-line imports",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "default",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"variable.language.module.default.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "qux",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "qul",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "export",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"keyword.control.module.export.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "qux",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "default",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"variable.language.module.default.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "something",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "default",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"variable.language.module.default.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "default",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"variable.language.module.default.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "something",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "default",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"variable.language.module.default.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "something",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "//",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js",
+				"punctuation.definition.comment.js"
+			]
+		},
+		{
+			"value": " Multi-line imports",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "                 ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t\t ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"invalid.illegal.syntax.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "  ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "qux",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "qul",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "export",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"keyword.control.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "qux",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "//",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js",
+				"punctuation.definition.comment.js"
+			]
+		},
+		{
+			"value": " Idiotic multi-line imports",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "qux",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "qul",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "{",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.begin.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js"
+			]
+		},
+		{
+			"value": "export",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"keyword.control.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js"
+			]
+		},
+		{
+			"value": "baz",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"meta.module.export.source.js",
+				"meta.module.name.source.js"
+			]
+		},
+		{
+			"value": "}",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.list.source.js",
+				"punctuation.definition.curly.bracket.brace.end.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.name.source.js",
+				"entity.name.module.source.js"
+			]
+		},
+		{
+			"value": ",",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"punctuation.delimiter.comma.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "*",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"keyword.operator.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js"
+			]
+		},
+		{
+			"value": "as",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"keyword.control.module.as.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js"
+			]
+		},
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.namespace.source.js",
+				"meta.module.alias.source.js",
+				"entity.name.module.alias.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "from",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.from.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	],
+	[
+		{
+			"value": "import",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"keyword.control.module.import.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\t",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.begin.source.js"
+			]
+		},
+		{
+			"value": "module-name",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js"
+			]
+		},
+		{
+			"value": "\"",
+			"scopes": [
+				"source.ecmascript",
+				"meta.module.import.source.js",
+				"meta.module.import.specifier.source.js",
+				"string.quoted.double.source.js",
+				"punctuation.definition.string.end.source.js"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	]
+]

@@ -1,0 +1,162 @@
+[
+	[
+		{
+			"value": "#!",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.number-sign.hashbang.source.js",
+				"punctuation.definition.comment.source.js"
+			]
+		},
+		{
+			"value": "  /usr/bin/env  node  --future",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.number-sign.hashbang.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "foo",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "//",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js",
+				"punctuation.definition.comment.js"
+			]
+		},
+		{
+			"value": " Comment line",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		},
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript",
+				"comment.line.double-slash.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "bar",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": "/*",
+			"scopes": [
+				"source.ecmascript",
+				"comment.block.source.js",
+				"punctuation.definition.comment.begin.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "\tComment block",
+			"scopes": [
+				"source.ecmascript",
+				"comment.block.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "*/",
+			"scopes": [
+				"source.ecmascript",
+				"comment.block.source.js",
+				"punctuation.definition.comment.end.js"
+			]
+		},
+		{
+			"value": " baz",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		},
+		{
+			"value": " ",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": "/*",
+			"scopes": [
+				"source.ecmascript",
+				"comment.block.empty.source.js",
+				"punctuation.definition.comment.begin.js"
+			]
+		},
+		{
+			"value": "*/",
+			"scopes": [
+				"source.ecmascript",
+				"comment.block.empty.source.js",
+				"punctuation.definition.comment.end.js"
+			]
+		},
+		{
+			"value": " qux",
+			"scopes": [
+				"source.ecmascript"
+			]
+		},
+		{
+			"value": ";",
+			"scopes": [
+				"source.ecmascript",
+				"punctuation.terminator.statement.semicolon.source.js"
+			]
+		}
+	],
+	[
+		{
+			"value": "",
+			"scopes": [
+				"source.ecmascript"
+			]
+		}
+	]
+]
