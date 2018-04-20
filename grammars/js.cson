@@ -65,10 +65,67 @@ repository:
 	main:
 		patterns: [
 			{include: "#comments"}
+			{include: "#binding"}
 			{include: "#module"}
-			{include: "#strings"}
-			{include: "#templates"}
+			{include: "#expression"}
 			{include: "#punctuation"}
+		]
+
+	# Hack for begin/end rules which terminate at EOL, but only after something
+	# meaningful has been matched (e.g., assignments or constructs subject to ASI)
+	skipInitialEmptyLines:
+		name:  "meta.initial-empty-lines.js"
+		begin: "\\G\\s+$\\s*"
+		end:   "^\\s*(?=[^\\s/]|/[^/*]|/$)"
+		patterns: [include: "#comments"]
+
+
+	binding:
+		name:  "meta.binding.$3.js"
+		begin: "(?:(export)\\s+(?:(default)\\s+)?)?(const|let|var)(?=\\s|$|/[/*])"
+		end:   ";|(?<!\\G)$"
+		beginCaptures:
+			1: name: "keyword.control.module.export.source.js"
+			2: name: "keyword.control.module.default.source.js"
+			3: name: "storage.type.$3.binding.js"
+		endCaptures:
+			0: patterns: [include: "#punctuation.semicolon"]
+		patterns: [
+			{include: "#skipInitialEmptyLines"}
+			{include: "#comments"}
+			{include: "#binding.assignment"}
+			{include: "#binding.multiple"}
+		]
+
+	"binding.assignment":
+		name:  "meta.binding.assignment.js"
+		begin: "\\G\\s*([$\\w]+)"
+		end:   "(?=;|,|\\s*$)"
+		beginCaptures:
+			1: name: "variable.other.assignment.readwrite.js"
+		patterns: [
+			{include: "#comments"}
+			{
+				begin: "="
+				end:   "(?=;|,|$)"
+				beginCaptures:
+					0: name: "keyword.operator.assignment.js"
+				patterns: [
+					{include: "#skipInitialEmptyLines"}
+					{include: "#expression"}
+				]
+			}
+		]
+	
+	"binding.multiple":
+		name:  "meta.binding.multiple.js"
+		begin: ","
+		end:   "(?=[;\\)},])|(?<!\\G)\\s*(?=$)"
+		beginCaptures:
+			0: patterns: [include: "#punctuation.comma"]
+		patterns: [
+			{include: "#skipInitialEmptyLines"}
+			{include: "#binding.assignment"}
 		]
 	
 	
@@ -120,7 +177,13 @@ repository:
 			captures:
 				1: name: "punctuation.definition.escape.backslash.source.js"
 		}]
-	
+
+
+	expression:
+		patterns: [
+			{include: "#strings"}
+			{include: "#templates"}
+		]
 
 	module:
 		patterns: [
