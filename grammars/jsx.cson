@@ -1,0 +1,30 @@
+# TODO: s/ECMA/Java/ once finished
+name: "JSX"
+scopeName: "source.ecmascript.jsx"
+fileTypes: [
+	".jsx"
+	".babel"
+	".flow"
+]
+firstLineMatch: """(?x)
+	# Babel pragma
+	( /[*]{2}\\s*@babel\\s*[*]/
+	| "use babel"
+	| 'use babel'
+	| /[*]\\s*@flow\\s*[*]/
+	)
+	|
+	# Modeline
+	(?i:
+		# Emacs
+		-\\*-(?:\\s*(?=[^:;\\s]+\\s*-\\*-)|(?:.*?[;\\s]|(?<=-\\*-))mode\\s*:\\s*)
+			(?:js2-)?jsx
+		(?=[\\s;]|(?<![-*])-\\*-).*?-\\*-
+		|
+		# Vim
+		(?:(?:\\s|^)vi(?:m[<=>]?\\d+|m)?|\\sex)(?=:(?=\\s*set?\\s[^\\n:]+:)|:(?!\\s* set?\\s))(?:(?:\\s|\\s*:\\s*)\\w*(?:\\s*=(?:[^\\n\\\\\\s]|\\\\.)*)?)*[\\s:](?:filetype|ft|syntax)\\s*=
+			(?:javascript\.)?jsx
+		(?=\\s|:|$)
+	)
+"""
+patterns: [include: "source.ecmascript"]

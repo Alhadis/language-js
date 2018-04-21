@@ -67,6 +67,7 @@ repository:
 			{include: "#comments"}
 			{include: "#binding"}
 			{include: "#module"}
+			{include: "#pragmas"}
 			{include: "#expression"}
 			{include: "#punctuation"}
 		]
@@ -217,8 +218,8 @@ repository:
 			0: name: "keyword.control.module.$1.source.js"
 		endCaptures:
 			0: name: "meta.module.import.specifier.source.js"
-			1: patterns: [include: "#strings.doubleQuoted"]
-			2: patterns: [include: "#strings.singleQuoted"]
+			1: patterns: [include: "#strings.double"]
+			2: patterns: [include: "#strings.single"]
 		patterns: [
 			{include: "#module.list"}
 			{include: "#module.from"}
@@ -267,6 +268,25 @@ repository:
 		]
 
 
+	# Pragma-like constructs
+	pragmas:
+		patterns: [{
+			name:  "meta.pragma.use-$3.ecmascript"
+			match: "((\"|')use (asm|strict|babel)\\2)\\s*(?=$|;|/[/*])"
+			captures:
+				0: patterns: [include: "#strings"]
+		},{
+			# /** @babel */
+			name:  "meta.pragma.babel-tag.ecmascript"
+			match: "(/\\*\\*)\\s*((@)babel)\\s*(\\*/)"
+			captures:
+				1: name: "punctuation.definition.pragma.comment.begin.ecmascript"
+				2: name: "storage.type.class.babel-tag.ecmascript"
+				3: name: "punctuation.definition.block.tag.ecmascript"
+				4: name: "punctuation.definition.pragma.comment.end.ecmascript"
+		}]
+
+
 	# Punctuation characters matched in absence of a more specific context
 	punctuation:
 		patterns: [
@@ -298,12 +318,12 @@ repository:
 	# Quoted string literals
 	strings:
 		patterns: [
-			{include: "#strings.doubleQuoted"}
-			{include: "#strings.singleQuoted"}
+			{include: "#strings.double"}
+			{include: "#strings.single"}
 		]
 
 	# "Double quotes"
-	"strings.doubleQuoted":
+	"strings.double":
 		patterns: [{
 			# Empty string
 			name:  "string.quoted.double.empty.source.js"
@@ -327,7 +347,7 @@ repository:
 		}]
 
 	# 'Single quotes'
-	"strings.singleQuoted":
+	"strings.single":
 		patterns: [{
 			# Two apostrophes masquerading as a quotation mark
 			name:  "string.quoted.single.empty.source.js"
