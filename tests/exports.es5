@@ -1,0 +1,96 @@
+// Source: https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
+
+export function detectCats(canvas, options) {
+	var kittydar = new Kittydar(options);
+	return kittydar.detectCats(canvas);
+}
+
+export class Kittydar {
+	
+}
+
+// This helper function isn't exported.
+function resizeCanvas() {
+	
+}
+
+
+
+
+// demo.js - Kittydar demo program
+
+import {detectCats} from "kittydar.js";
+
+function go() {
+	var canvas = document.getElementById("catpix");
+	var cats = detectCats(canvas);
+	drawRectangles(canvas, cats);
+}
+
+import {detectCats, Kittydar} from "kittydar.js";
+
+
+export {detectCats, Kittydar};
+
+// no `export` keyword required here
+function detectCats(canvas, options) { ... }
+class Kittydar { ... }
+
+// suburbia.js
+
+// Both these modules export something named `flip`.
+// To import them both, we must rename at least one.
+import {flip as flipOmelet} from "eggs.js";
+import {flip as flipHouse} from "real-estate.js";
+...
+
+// unlicensed_nuclear_accelerator.js - media streaming without drm
+// (not a real library, but maybe it should be)
+
+function v1() { ... }
+function v2() { ... }
+
+export {
+	v1 as streamV1,
+	v2 as streamV2,
+	v2 as streamLatestVersion
+};
+
+import {each, map} from "lodash";
+
+each([3, 2, 1], x => console.log(x));
+
+
+import _ from "lodash";
+
+
+// ES6 equivalent of `var colors = require("colors/safe");`
+import colors from "colors/safe";
+
+
+
+let myObject = {
+	field1: value1,
+	field2: value2
+};
+export {myObject as default};
+
+
+export default {
+	field1: value1,
+	field2: value2
+};
+
+import * as cows from "cows";
+
+
+// world-foods.js - good stuff from all over
+
+// import "sri-lanka" and re-export some of its exports
+export {Tea, Cinnamon} from "sri-lanka";
+
+// import "equatorial-guinea" and re-export some of its exports
+export {Coffee, Cocoa} from "equatorial-guinea";
+
+// import "singapore" and export ALL of its exports
+export * from "singapore";
